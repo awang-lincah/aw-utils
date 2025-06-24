@@ -1,0 +1,24 @@
+{
+  "name": "@ekaadeliawan/utils",
+  "version": "0.0.2",
+  "description": "",
+  "author": "Eka Adeliawan",
+  "license": "ISC",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "copy:prod-package": "cp ./package.prod.json ./dist/package.json",
+    "build:local": "tsc -p tsconfig.json && tsc-alias -p tsconfig.json",
+    "build": "pnpm run build:local && pnpm run copy:prod-package",
+    "clean:all": "rm -rf dist node_modules"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@google-cloud/secret-manager": "^6.0.1"
+  },
+  "devDependencies": {
+    "tsc-alias": "^1.8.16",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

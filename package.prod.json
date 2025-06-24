@@ -1,0 +1,16 @@
+{
+  "name": "@ekaadeliawan/utils",
+  "version": "0.0.2",
+  "description": "",
+  "author": "Eka Adeliawan",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "publish": "pnpm publish --access public --no-git-checks"
+  },
+  "keywords": [],
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "@google-cloud/secret-manager": "^6.0.1"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+src/
+test/
+*.test.ts
+*.spec.ts
+.git/
+.gitignore
+.env
