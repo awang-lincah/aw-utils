@@ -1,6 +1,6 @@
 import { GcpUtils } from './gcp'
 
-export class Utils {
+export class AwUtils {
   public readonly gcp: GcpUtils
 
   constructor() {
